@@ -19,35 +19,7 @@ Transcriptomic analysis of Recessive Dystrophic Epidermolysis Bullosa (RDEB), Sq
 - Characterize the immune microenvironment and evaluate gene–immune correlations to identify immune-associated molecular signatures involved in RDEB-SCC progression.
 
 ## Analysis Workflow
-
-                         RNA-seq DATA
-                             │
-                             ↓
-                    QUALITY CONTROL
-                         FastQC
-                             │
-                             ↓
-                     READ TRIMMING
-                  fastp / Trimmomatic
-                             │
-                             ↓
-                    GENOME ALIGNMENT
-                         HISAT2
-                             │
-                             ↓
-                   READ QUANTIFICATION
-                      featureCounts
-                             │
-                             ↓
-                DIFFERENTIAL EXPRESSION
-                         DESeq2
-                             │
-              ┌──────────────┴──────────────┐
-              ↓                             ↓
-        DEG IDENTIFICATION          PCA / MA / Volcano
-              │
-              ↓
-                                          RNA-seq DATA
+                          RNA-seq DATA
                              │
                              ↓
                     QUALITY CONTROL
