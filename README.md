@@ -102,6 +102,7 @@ Transcriptomic analysis of Recessive Dystrophic Epidermolysis Bullosa (RDEB), Sq
 - xcell
 - gene ontology
 - NetworkAnalyst
+- Linix
 
 ## Comparisons
 
